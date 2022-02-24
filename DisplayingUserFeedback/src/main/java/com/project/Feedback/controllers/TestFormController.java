@@ -30,17 +30,6 @@ public class TestFormController {
 			return "post";
 	}
 		
-//	TODO: Implement form submission
-//	TODO: call RestTemplate and make json request to localhost.../feedback
 
 }
 
-
-//RestTemplate restTemplate = new RestTemplate();
-//URL testForm = new URL("http://localhost:8090/feedbacks/{feedback}");
-//ResponseEntity<String> response = restTemplate.getForEntity(testForm + "/7", String.class);
-//ObjectMapper mapper = new ObjectMapper();
-//JsonNode root = mapper.readTree(response.getBody());
-//JsonNode name = root.path("name");
-//model.addAttribute(name);
-//String result = restTemplate.getForObject("http://localhost:8090/feedbacks/{feedback}", String.class, 7); 
